@@ -11,7 +11,7 @@ RUN apt install curl unzip -y \
  && chmod -x+rw /ssrbin/config.json \
  && rm -rf ssr.zip
 
-ADD entrypoint.sh /ssrbin/entrypoint.sh
-RUN chmod +x /ssrbin/entrypoint.sh 
+ADD start.sh /ssrbin/start.sh
+RUN chmod +x /ssrbin/start.sh
 
-CMD /ssrbin/entrypoint.sh
+CMD /ssrbin/start.sh
