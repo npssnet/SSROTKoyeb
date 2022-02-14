@@ -11,7 +11,7 @@
 
     "server_settings": {
         "listen_address": "0.0.0.0",
-        "listen_port": 80
+        "listen_port": 5008
     },
 
     "client_settings": {
@@ -22,7 +22,7 @@
     },
 
     "over_tls_settings": {
-        "enable": true,
+        "enable": false,
         "server_domain": "ssrote.herokuapp.com",
         "path": "/ssrot/",
         "root_cert_file": ""
