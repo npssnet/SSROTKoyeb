@@ -1,5 +1,3 @@
 build:
    docker:
       web: Dockerfile
-run:
-   web: docker run -d -p 5008:5008 --name ssrot -v /root/config.json:/config.json seriawei/ssrot-server
