@@ -1,1 +1,1 @@
-/root/ssr-server -c /config.json
+/ssrbin/ssr-server -c /config.json
