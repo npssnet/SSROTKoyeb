@@ -15,7 +15,7 @@ cat > /ssrbin/config.json <<EOF
         "listen_port": 80
     },
     "client_settings": {
-        "server": "ssrot-npssapp.koyeb.app",
+        "server": "ssrot-npssnet.koyeb.app",
         "server_port": 443,
         "listen_address": "0.0.0.0",
         "listen_port": 1080
