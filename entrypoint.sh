@@ -1,6 +1,6 @@
 cat > /ssrbin/config.json <<EOF
 {
-    "password": "${PASSWORD}",
+    "password": "13955112-79c5-4aae-ac01-aabec4c963aa",
     "method": "aes-128-ctr",
     "protocol": "origin",
     "protocol_param": "",
@@ -12,18 +12,18 @@ cat > /ssrbin/config.json <<EOF
     "udp_timeout": 6,
     "server_settings": {
         "listen_address": "0.0.0.0",
-        "listen_port": ${PORT}
+        "listen_port": 80
     },
     "client_settings": {
-        "server": "${APP_SITE}",
+        "server": "ssrot-npssapp.koyeb.app",
         "server_port": 443,
         "listen_address": "0.0.0.0",
         "listen_port": 1080
     },
     "over_tls_settings": {
         "enable": true,
-        "server_domain": "${APP_SITE}",
-        "path": "/${SECRET_PATH}/",
+        "server_domain": "ssrot-npssapp.koyeb.app",
+        "path": "/9ccbb338-2c45-4751-b767-8ba83a1e5624/",
         "root_cert_file": ""
     }
 }
