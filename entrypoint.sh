@@ -22,7 +22,7 @@ cat > /ssrbin/config.json <<EOF
     },
     "over_tls_settings": {
         "enable": true,
-        "server_domain": "ssrot-npssapp.koyeb.app",
+        "server_domain": "ssrot-npssnet.koyeb.app",
         "path": "/9ccbb338-2c45-4751-b767-8ba83a1e5624/",
         "root_cert_file": ""
     }
