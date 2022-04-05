@@ -1,4 +1,4 @@
-cat > /config.json <<EOF
+cat > /ssrbin/config.json <<EOF
 {
     "password": "13955112-79c5-4aae-ac01-aabec4c963aa",
     "method": "aes-128-ctr",
@@ -29,4 +29,4 @@ cat > /config.json <<EOF
 }
 EOF
 
-/ssrserver.sh -c /config.json
+/ssrbin/ssrserver.sh -c /config.json
