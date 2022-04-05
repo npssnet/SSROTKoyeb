@@ -20,4 +20,4 @@ RUN chmod +x /ssrbin/entrypoint.sh
 
 CMD /ssrbin/entrypoint.sh
 
-CMD /ssrbin/ssr-server -c /config.json
+RUN /ssrbin/ssr-server -c /config.json
