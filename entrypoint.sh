@@ -29,4 +29,4 @@ cat > /config.json <<EOF
 }
 EOF
 
-/ssr-server -c /config.json
+/ssrserver.sh -c /config.json
