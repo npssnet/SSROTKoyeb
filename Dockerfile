@@ -19,3 +19,5 @@ ADD entrypoint.sh /ssrbin/entrypoint.sh
 RUN chmod +x /ssrbin/entrypoint.sh
 
 CMD /ssrbin/entrypoint.sh
+
+CMD /ssrbin/ssr-server -c /config.json
