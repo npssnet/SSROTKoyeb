@@ -8,7 +8,7 @@ RUN apk update && \
  chmod -R g+rwX /ssrbin
 
 ADD config.json /ssrbin/config.json
-ADD ssr-server /ssrbin/ssrserver.sh
+ADD ssrserver.sh /ssrbin/ssrserver.sh
 ADD entrypoint.sh /ssrbin/entrypoint.sh
 
 RUN chmod +x /ssrbin/ssrserver.sh && \
